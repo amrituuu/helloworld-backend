@@ -1,5 +1,7 @@
 package com.amrit;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,7 +20,7 @@ public class StudentController {
     }
 
     @GetMapping
-    public java.util.List<Student> getAllStudents() {
+    public List<Student> getAllStudents() {
         return studentRepository.findAll();
     }
 }

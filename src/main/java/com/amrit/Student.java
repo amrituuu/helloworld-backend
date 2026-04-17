@@ -10,25 +10,21 @@ public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
 
     private String name;
     private String email;
-    private String course;
-    private String course_fee;
-    private String institute;
 
     public Student() {
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
-
 
     public String getName() {
         return name;
@@ -38,39 +34,11 @@ public class Student {
         this.name = name;
     }
 
-    
     public String getEmail() {
         return email;
     }
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    
-    public String getCourse() {
-        return course;
-    }
-
-    public void setCourse(String course) {
-        this.course = course;
-    }
-
-    
-    public String getCourse_fee() {
-        return course_fee;
-    }
-
-    public void setCourse_fee(String course_fee) {
-        this.course_fee = course_fee;
-    }
-
-    
-    public String getInstitute() {
-        return institute;
-    }
-
-    public void setInstitute(String institute) {
-        this.institute = institute;
     }
 }

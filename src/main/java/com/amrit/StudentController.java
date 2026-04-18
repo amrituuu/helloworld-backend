@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin(origins = "\"https://your-site-name.netlify.app\")")
+
 public class StudentController {
 
     @Autowired

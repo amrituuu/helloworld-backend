@@ -14,9 +14,6 @@ public class Student {
 
     private String name;
     private String email;
-    private String course;
-    private String course_fee;
-    private String institute;
 
     public Student() {
     }
@@ -43,29 +40,5 @@ public class Student {
 
     public void setEmail(String email) {
         this.email = email;
-    }
-
-    public String getCourse() {
-        return course;
-    }
-
-    public void setCourse(String course) {
-        this.course = course;
-    }
-
-    public String getCourse_fee() {
-        return course_fee;
-    }
-
-    public void setCourse_fee(String course_fee) {
-        this.course_fee = course_fee;
-    }
-
-    public String getInstitute() {
-        return institute;
-    }
-
-    public void setInstitute(String institute) {
-        this.institute = institute;
     }
 }

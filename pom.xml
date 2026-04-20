@@ -10,6 +10,8 @@
         <version>3.2.5</version>
         <relativePath/>
     </parent>
+    
+    <packaging>jar</packaging>
 
     <groupId>com.amrit</groupId>
     <artifactId>helloworld-backend</artifactId>
@@ -18,7 +20,7 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <java.version>21</java.version>
+        <java.version>17</java.version>
     </properties>
 
     <dependencies>

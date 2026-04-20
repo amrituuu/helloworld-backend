@@ -1,0 +1,7 @@
+com\amrit\CorsConfig.class
+com\amrit\HelloController.class
+com\amrit\StudentController.class
+com\amrit\StudentRepository.class
+com\amrit\CorsConfig$1.class
+com\amrit\Student.class
+com\amrit\HelloWorldApplication.class
